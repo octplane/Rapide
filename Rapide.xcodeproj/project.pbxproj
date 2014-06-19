@@ -1,0 +1,416 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02B538FE19487C2A00B5FC68 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B538FD19487C2A00B5FC68 /* main.swift */; };
+		02B5390019487C2A00B5FC68 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B538FF19487C2A00B5FC68 /* AppDelegate.swift */; };
+		02B5390219487C2A00B5FC68 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02B5390119487C2A00B5FC68 /* Images.xcassets */; };
+		02B5390519487C2A00B5FC68 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 02B5390319487C2A00B5FC68 /* MainMenu.xib */; };
+		02B5391119487C2A00B5FC68 /* RapideTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B5391019487C2A00B5FC68 /* RapideTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		02B5390B19487C2A00B5FC68 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 02B538F019487C2A00B5FC68 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 02B538F719487C2A00B5FC68;
+			remoteInfo = Rapide;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02B538F819487C2A00B5FC68 /* Rapide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rapide.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		02B538FC19487C2A00B5FC68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02B538FD19487C2A00B5FC68 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		02B538FF19487C2A00B5FC68 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		02B5390119487C2A00B5FC68 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		02B5390419487C2A00B5FC68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		02B5390A19487C2A00B5FC68 /* RapideTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RapideTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		02B5390F19487C2A00B5FC68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02B5391019487C2A00B5FC68 /* RapideTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RapideTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		02B538F519487C2A00B5FC68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02B5390719487C2A00B5FC68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		02B538EF19487C2A00B5FC68 = {
+			isa = PBXGroup;
+			children = (
+				02B538FA19487C2A00B5FC68 /* Rapide */,
+				02B5390D19487C2A00B5FC68 /* RapideTests */,
+				02B538F919487C2A00B5FC68 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		02B538F919487C2A00B5FC68 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				02B538F819487C2A00B5FC68 /* Rapide.app */,
+				02B5390A19487C2A00B5FC68 /* RapideTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		02B538FA19487C2A00B5FC68 /* Rapide */ = {
+			isa = PBXGroup;
+			children = (
+				02B538FF19487C2A00B5FC68 /* AppDelegate.swift */,
+				02B5390119487C2A00B5FC68 /* Images.xcassets */,
+				02B5390319487C2A00B5FC68 /* MainMenu.xib */,
+				02B538FB19487C2A00B5FC68 /* Supporting Files */,
+			);
+			path = Rapide;
+			sourceTree = "<group>";
+		};
+		02B538FB19487C2A00B5FC68 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				02B538FC19487C2A00B5FC68 /* Info.plist */,
+				02B538FD19487C2A00B5FC68 /* main.swift */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		02B5390D19487C2A00B5FC68 /* RapideTests */ = {
+			isa = PBXGroup;
+			children = (
+				02B5391019487C2A00B5FC68 /* RapideTests.swift */,
+				02B5390E19487C2A00B5FC68 /* Supporting Files */,
+			);
+			path = RapideTests;
+			sourceTree = "<group>";
+		};
+		02B5390E19487C2A00B5FC68 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				02B5390F19487C2A00B5FC68 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		02B538F719487C2A00B5FC68 /* Rapide */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02B5391419487C2A00B5FC68 /* Build configuration list for PBXNativeTarget "Rapide" */;
+			buildPhases = (
+				02B538F419487C2A00B5FC68 /* Sources */,
+				02B538F519487C2A00B5FC68 /* Frameworks */,
+				02B538F619487C2A00B5FC68 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Rapide;
+			productName = Rapide;
+			productReference = 02B538F819487C2A00B5FC68 /* Rapide.app */;
+			productType = "com.apple.product-type.application";
+		};
+		02B5390919487C2A00B5FC68 /* RapideTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02B5391719487C2A00B5FC68 /* Build configuration list for PBXNativeTarget "RapideTests" */;
+			buildPhases = (
+				02B5390619487C2A00B5FC68 /* Sources */,
+				02B5390719487C2A00B5FC68 /* Frameworks */,
+				02B5390819487C2A00B5FC68 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				02B5390C19487C2A00B5FC68 /* PBXTargetDependency */,
+			);
+			name = RapideTests;
+			productName = RapideTests;
+			productReference = 02B5390A19487C2A00B5FC68 /* RapideTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		02B538F019487C2A00B5FC68 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Pierre Baillet";
+				TargetAttributes = {
+					02B538F719487C2A00B5FC68 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					02B5390919487C2A00B5FC68 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 02B538F719487C2A00B5FC68;
+					};
+				};
+			};
+			buildConfigurationList = 02B538F319487C2A00B5FC68 /* Build configuration list for PBXProject "Rapide" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 02B538EF19487C2A00B5FC68;
+			productRefGroup = 02B538F919487C2A00B5FC68 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				02B538F719487C2A00B5FC68 /* Rapide */,
+				02B5390919487C2A00B5FC68 /* RapideTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		02B538F619487C2A00B5FC68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02B5390219487C2A00B5FC68 /* Images.xcassets in Resources */,
+				02B5390519487C2A00B5FC68 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02B5390819487C2A00B5FC68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		02B538F419487C2A00B5FC68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02B5390019487C2A00B5FC68 /* AppDelegate.swift in Sources */,
+				02B538FE19487C2A00B5FC68 /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02B5390619487C2A00B5FC68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02B5391119487C2A00B5FC68 /* RapideTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		02B5390C19487C2A00B5FC68 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 02B538F719487C2A00B5FC68 /* Rapide */;
+			targetProxy = 02B5390B19487C2A00B5FC68 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		02B5390319487C2A00B5FC68 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				02B5390419487C2A00B5FC68 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		02B5391219487C2A00B5FC68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				METAL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		02B5391319487C2A00B5FC68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				METAL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		02B5391519487C2A00B5FC68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Rapide/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		02B5391619487C2A00B5FC68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Rapide/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		02B5391819487C2A00B5FC68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Rapide.app/Contents/MacOS/Rapide";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RapideTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				METAL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		02B5391919487C2A00B5FC68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Rapide.app/Contents/MacOS/Rapide";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RapideTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				METAL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		02B538F319487C2A00B5FC68 /* Build configuration list for PBXProject "Rapide" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02B5391219487C2A00B5FC68 /* Debug */,
+				02B5391319487C2A00B5FC68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		02B5391419487C2A00B5FC68 /* Build configuration list for PBXNativeTarget "Rapide" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02B5391519487C2A00B5FC68 /* Debug */,
+				02B5391619487C2A00B5FC68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		02B5391719487C2A00B5FC68 /* Build configuration list for PBXNativeTarget "RapideTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02B5391819487C2A00B5FC68 /* Debug */,
+				02B5391919487C2A00B5FC68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 02B538F019487C2A00B5FC68 /* Project object */;
+}
