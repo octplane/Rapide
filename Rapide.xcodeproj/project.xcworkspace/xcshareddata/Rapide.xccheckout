@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>AC9E6B12-7EDA-4BAD-84C1-9C1EBB91165F</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Rapide</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>61629576F072BFF6AB0336A7C0AEA08E2B62DEDD</key>
+		<string>https://github.com/Jamonek/Rapide.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Rapide.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>61629576F072BFF6AB0336A7C0AEA08E2B62DEDD</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/Jamonek/Rapide.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>61629576F072BFF6AB0336A7C0AEA08E2B62DEDD</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>61629576F072BFF6AB0336A7C0AEA08E2B62DEDD</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Rapide</string>
+		</dict>
+	</array>
+</dict>
+</plist>

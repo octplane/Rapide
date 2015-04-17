@@ -19,13 +19,13 @@ class AppDelegate: NSObject, NSApplicationDelegate, NSStreamDelegate, NSTextFiel
     var outputStream :NSOutputStream?
     var lineRemain :String = ""
     
-    let nickname :String = "SpectreMan_"
+    let nickname :String = "DonBot"
 
     var server :CFString = "irc.freenode.org"
     var port :UInt32 = 6667
     var ircPassword :String? = nil
-    var motto :String = "Plus rapide qu'un missile !"
-    var channel :String = "#swift-test"
+    var motto :String = "DonBot v1.0"
+    var channel :String = "##farce"
     
     
     enum ConnectionStatus: Int {
