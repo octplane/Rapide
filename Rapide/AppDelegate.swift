@@ -52,7 +52,7 @@ class AppDelegate: NSObject, NSApplicationDelegate, NSStreamDelegate, NSTextFiel
     
     
     func get<T>(input: T?, orElse: T) -> T {
-        if let i = input? {
+        if let i = input {
             return i
         }
         return orElse
@@ -65,7 +65,7 @@ class AppDelegate: NSObject, NSApplicationDelegate, NSStreamDelegate, NSTextFiel
         return orElse
     }
     
-    func applicationDidFinishLaunching(aNotification: NSNotification?) {
+    func applicationDidFinishLaunching(aNotification: NSNotification) {
         
         
         let pi =  NSProcessInfo.processInfo()
@@ -97,7 +97,7 @@ class AppDelegate: NSObject, NSApplicationDelegate, NSStreamDelegate, NSTextFiel
     }
     
     
-    func stream(aStream: NSStream!, handleEvent eventCode: NSStreamEvent){
+    func stream(aStream: NSStream, handleEvent eventCode: NSStreamEvent){
         
         var msg :String = ""
         
@@ -107,7 +107,7 @@ class AppDelegate: NSObject, NSApplicationDelegate, NSStreamDelegate, NSTextFiel
                 var data = [UInt8](count: 4096, repeatedValue: 0)
                 let read = self.inputStream!.read(&data, maxLength: 4096)
                 let strData = NSString(bytes: data, length: read, encoding: NSUTF8StringEncoding)
-                handleInput(strData!)
+                handleInput(strData! as String)
             }
 
         case NSStreamEvent.HasSpaceAvailable:
@@ -127,7 +127,7 @@ class AppDelegate: NSObject, NSApplicationDelegate, NSStreamDelegate, NSTextFiel
         }
     }
 
-    func applicationWillTerminate(aNotification: NSNotification?) {
+    func applicationWillTerminate(aNotification: NSNotification) {
         // Insert code here to tear down your application
     }
     
@@ -216,7 +216,7 @@ class AppDelegate: NSObject, NSApplicationDelegate, NSStreamDelegate, NSTextFiel
     
     
     override func controlTextDidEndEditing(notif :NSNotification) {
-        if notif.object as NSObject == tf {
+        if notif.object as! NSObject == tf {
             sendMessage("PRIVMSG \(channel) :"+tf.stringValue)
         }
     }
